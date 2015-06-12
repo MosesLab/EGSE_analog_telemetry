@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MOSES_v8.vi" Type="VI" URL="../MOSES_v8.vi"/>
+		<Item Name="MOSES.vi" Type="VI" URL="../MOSES.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="HP34970A List to Array.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 34970A/hp34970a.llb/HP34970A List to Array.vi"/>
@@ -207,6 +207,7 @@
 				<Item Name="ex_WriteToOpenTDMFile.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/express/TDMExpress.llb/ex_WriteToOpenTDMFile.vi"/>
 				<Item Name="ex_XColumnsText.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_XColumnsText.vi"/>
 				<Item Name="ex_YesOrNoToBool.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/ExFileReadBlock.llb/ex_YesOrNoToBool.vi"/>
+				<Item Name="exnFormulaBlock how many pts in the wave.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/Formula/Block/exnFormulaBlock how many pts in the wave.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -217,7 +218,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="How many pts in the wave.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/FormulaBlock.llb/How many pts in the wave.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
@@ -274,47 +274,48 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MOSES Background 4_v8.vi" Type="VI" URL="../MOSES Background 4_v8.vi"/>
+			<Item Name="MOSES Background 4.vi" Type="VI" URL="../MOSES Background 4.vi"/>
 			<Item Name="sub_vi.vi" Type="VI" URL="../sub_vi.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="EGSE_Analog_TM_MOSES" Type="EXE">
+			<Item Name="MOSES_EGSE_Analog_TM" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{E9C0A2B7-AE05-4601-AB5E-C26A8FF51BAE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{498C8575-1DF6-4837-B940-BD8203868B71}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2B6B14A3-CE82-4690-A6B9-15C9F0183D90}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2E360F0A-BE05-4651-ACB8-8507CE7ED14A}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{25ED1837-5DCB-4A22-BD53-E9DD10BFB7BD}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Executable file in LabVIEW 8.0 Runtime Environment</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">EGSE_Analog_TM_MOSES</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{713E5EB3-72B1-446B-BC6D-DE7633D9EE2E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MOSES_EGSE_Analog_TM</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/EGSE_Analog_TM_MOSES</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MOSES_EGSE_Analog_TM</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{628F4ACD-6495-41A6-9285-7B0847E9062A}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9BA89A79-6904-458F-8A62-AFA55B614077}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">EGSE_Analog_TM_MOSES.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/EGSE_Analog_TM_MOSES/EGSE_Analog_TM_MOSES.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">MOSES_EGSE_Analog_TM.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MOSES_EGSE_Analog_TM/MOSES_EGSE_Analog_TM.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/EGSE_Analog_TM_MOSES/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MOSES_EGSE_Analog_TM/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1D64FF30-53E5-4600-A16B-B31A57D6751A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEED5581-406A-4F36-A1D1-AD9013DAAA65}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MOSES_v8.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MOSES.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">EGSE_Analog_TM_MOSES</Property>
-				<Property Name="TgtF_internalName" Type="Str">EGSE_Analog_TM_MOSES</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MOSES_EGSE_Analog_TM</Property>
+				<Property Name="TgtF_internalName" Type="Str">MOSES_EGSE_Analog_TM</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 </Property>
-				<Property Name="TgtF_productName" Type="Str">EGSE_Analog_TM_MOSES</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{917A81B5-7BF4-498E-82F9-6C88F053CA68}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">EGSE_Analog_TM_MOSES.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">MOSES_EGSE_Analog_TM</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B8489DE3-6FFB-41D0-BB65-872F6DE8F75B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MOSES_EGSE_Analog_TM.exe</Property>
 			</Item>
 		</Item>
 	</Item>
