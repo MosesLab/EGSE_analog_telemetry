@@ -274,7 +274,6 @@
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MOSES Background 4.vi" Type="VI" URL="../MOSES Background 4.vi"/>
 			<Item Name="sub_vi.vi" Type="VI" URL="../sub_vi.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -294,7 +293,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9BA89A79-6904-458F-8A62-AFA55B614077}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOSES_EGSE_Analog_TM.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MOSES_EGSE_Analog_TM/MOSES_EGSE_Analog_TM.exe</Property>
